@@ -4,4 +4,4 @@
 
 [MyTestCode/Qt/MyTabWidget at master · gongjianbo/MyTestCode (github.com)](https://github.com/gongjianbo/MyTestCode/tree/master/Qt/MyTabWidget)
 
-![](D:\code\QT_Demo_Code\MyTabWidget\demo.gif)
+![demo.gif (829×498) (gitee.com)](https://gitee.com/strongercjd/QT_Demo_Code/raw/master/MyTabWidget/demo.gif)
