@@ -1,3 +1,9 @@
+[码云仓库](https://gitee.com/strongercjd/QT_Demo_Code)
+
+[github仓库](https://github.com/strongercjd/QT_Demo_Code)
+
+
+
 # MyTabWidget
 
 原作者链接
