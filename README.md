@@ -21,3 +21,13 @@
 原作者链接找不到了
 
 ![serial_port_plotter/demo.png](https://gitee.com/strongercjd/QT_Demo_Code/raw/master/serial_port_plotter/demo.png)
+
+
+
+
+
+# MVC
+
+
+
+在QT中MVC模式开发示例
