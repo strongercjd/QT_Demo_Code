@@ -16,6 +16,31 @@
 #include <QTime>
 #include <QQueue>
 
+/**
+在MainWindow新建一个Widget组件，将其提升为SerialCom，假如这个组件命名为 widget_serial_port
+
+发送函数：ui->widget_serial_port->writedata(ui->lineEdit->text().toLatin1());  入参类型为QByteArray
+
+接收函数：比如就在MainWindow类中接收，增加槽函数
+mainwindow.h
+private slots:
+    void serial_receive_data(QByteArray data);
+
+mainwindow.cpp
+void MainWindow:: serial_receive_data(QByteArray data)
+{
+    qDebug() << "receive:"<<data;
+}
+并且在MainWindow实例化中进行信号连接
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+    connect(ui->widget_serial_port, &SerialCom::readdata, this, &MainWindow::serial_receive_data);
+}
+*/
+
 namespace Ui {
 class SerialCom;
 }
