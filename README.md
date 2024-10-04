@@ -31,3 +31,10 @@
 
 
 在QT中MVC模式开发示例
+
+
+
+# serial_port_demo
+
+串口应用的demo，其他项目可以直接拷贝走复用
+
