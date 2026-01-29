@@ -19,7 +19,6 @@ win32 {
     LIBS += -luser32
 }
 
-
 SOURCES += \
     main.cpp \
     mainwindow.cpp
@@ -27,7 +26,11 @@ SOURCES += \
 HEADERS += \
     mainwindow.h
 
+
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RC_ICONS = app_icon.ico
